@@ -15,7 +15,7 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: "https://consultantcomrade.onrender.com/"
+    origin: "https://consultantcomrade.onrender.com"
   })
 );
 
