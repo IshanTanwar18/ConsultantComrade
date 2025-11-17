@@ -13,7 +13,12 @@ dotenv.config();
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://consultantcomrade.onrender.com/"
+  })
+);
+
 app.use(express.json());
 
 // Routes
