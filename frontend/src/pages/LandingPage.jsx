@@ -137,7 +137,7 @@ export default function LandingPage() {
                   value={heroForm.fullName}
                   onChange={handleHeroChange}
                   required
-                  placeholder="John Doe"
+                  placeholder="Rohit Sharma"
                   className="w-full rounded-lg border border-gray-700 px-3 py-2 text-sm text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-gray-800 transition"
                 />
               </div>
@@ -152,7 +152,7 @@ export default function LandingPage() {
                   value={heroForm.email}
                   onChange={handleHeroChange}
                   required
-                  placeholder="john@example.com"
+                  placeholder="rohit@gmail.com"
                   className="w-full rounded-lg border border-gray-700 px-3 py-2 text-sm text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-gray-800 transition"
                 />
               </div>
@@ -166,7 +166,7 @@ export default function LandingPage() {
                   value={heroForm.mobile}
                   onChange={handleHeroChange}
                   required
-                  placeholder="+91 9876543210"
+                  placeholder="+91 0000000000"
                   className="w-full rounded-lg border border-gray-700 px-3 py-2 text-sm text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-gray-800 transition"
                 />
               </div>
